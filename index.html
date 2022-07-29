@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="author" content="https://github.com/syrizaldev">
+   <title>Responsive Vanilla Navbar Menu</title>
+   <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">
+   <link rel="stylesheet" type="text/css" href="./public/css/reset.min.css">
+   <link rel="stylesheet" type="text/css" href="./public/css/style.min.css">
+   <link rel="stylesheet" type="text/css" href="./public/css/boxicons.min.css">
+</head>
+
+<body>
+   <header class="header" id="header">
+      <section class="wrapper container">
+         <a href="./index.html" class="brand">Brand</a>
+         <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+         </div>
+         <span class="overlay"></span>
+         <nav class="navbar" id="navbar">
+            <ul class="menu" id="menu">
+               <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+               <li class="menu-item"><a href="#" class="menu-link">Portfolio</a></li>
+               <li class="menu-item menu-dropdown">
+                  <a class="menu-link" data-toggle="submenu">Service<i class="bx bx-chevron-down"></i></a>
+                  <ul class="submenu">
+                     <li class="submenu-item"><a href="#" class="submenu-link">Service 1</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Service 2</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Service 3</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Service 4</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item menu-dropdown">
+                  <a class="menu-link" data-toggle="submenu">Project<i class="bx bx-chevron-down"></i></a>
+                  <ul class="submenu">
+                     <li class="submenu-item"><a href="#" class="submenu-link">Project 1</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Project 2</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Project 3</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Project 4</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item menu-dropdown">
+                  <a class="menu-link" data-toggle="submenu">Resource<i class="bx bx-chevron-down"></i></a>
+                  <ul class="submenu">
+                     <li class="submenu-item"><a href="#" class="submenu-link">Resource 1</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Resource 2</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Resource 3</a></li>
+                     <li class="submenu-item"><a href="#" class="submenu-link">Resource 4</a></li>
+                  </ul>
+               </li>
+               <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+            </ul>
+         </nav>
+      </section>
+   </header>
+
+
+   <script defer src="./public/js/script.js"></script>
+</body>
+
+</html>
